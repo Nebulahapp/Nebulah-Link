@@ -1,6 +1,6 @@
 # Nebulah Link repository and release boundaries
 
-Updated 2026-10-26. Basic is the public source edition. Pro accounts and protected tester downloads are managed through the product website; checkout remains disabled. Basic contains no Pro code-entry or local unlock control.
+Updated 2026-11-11. Basic is the public free early-access source edition (`Nebulahapp/Nebulah-Link`). Pro accounts and protected tester downloads are managed through the product website; checkout remains disabled. Basic contains no Pro code-entry or local unlock control.
 
 | Repository | Visibility | Role |
 | --- | --- | --- |

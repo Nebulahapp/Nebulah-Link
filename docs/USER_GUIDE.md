@@ -81,4 +81,4 @@ Only missing saved files are copied; existing destination files stay in place. K
 
 Keep the displayed support code and the steps that led to it. Check that Neighborhood can connect and that the console is responsive before reconnecting after a recovery hold. A disconnected browser is not evidence that an operation did not happen; inspect the result before retrying.
 
-Ask in [Discord](https://discord.gg/QCQcXaz6RU) or [report an issue](https://github.com/Nebulah360/Nebulah-Link/issues). Remove keys, pairing tokens, serials, account data, keyvaults, and proprietary files from reports.
+Ask in [Discord](https://discord.gg/QCQcXaz6RU) or [report an issue](https://github.com/Nebulahapp/Nebulah-Link/issues). Game Editors and RTE stay in [Nebulah Link Pro](https://link.nebulah.app/link-pro); website checkout is not available yet. Remove keys, pairing tokens, serials, account data, keyvaults, and proprietary files from reports.

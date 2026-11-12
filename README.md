@@ -5,24 +5,25 @@
   <img src="dist/brand/symbol-color.svg" alt="Nebulah Link" width="72">
 </picture>
 
-[Product website](https://link.nebulah.app/) | [Try the sample workspace](https://link.nebulah.app/demo) | [User guide](docs/USER_GUIDE.md) | [Release boundaries](docs/REPOSITORY_POLICY.md)
+[Product website](https://link.nebulah.app/) | [Try the sample workspace](https://link.nebulah.app/demo) | [Pro (editors)](https://link.nebulah.app/link-pro) | [User guide](docs/USER_GUIDE.md) | [Release boundaries](docs/REPOSITORY_POLICY.md)
 
 Nebulah Link brings your Xbox 360 into a browser on your Windows PC. It connects through your installed Xbox 360 Neighborhood. A phone on the same trusted network can view live console status through the PC.
 
-This is an early-access build. Console compatibility has been checked on a limited setup; more hardware testing is needed before a stable release.
+This is a **free early-access** build. Console compatibility has been checked on a limited setup; more hardware testing is needed before a stable release. Game Editors, Title editors, and RTE stay in [Nebulah Link Pro](https://link.nebulah.app/link-pro). Website checkout and billing are not available yet; this Basic app has no Pro unlock code entry.
 
 ## Start on Windows
 
 1. Install Xbox 360 Neighborhood and confirm it can connect to your console.
-2. Download the [Basic source ZIP](https://github.com/Nebulah360/Nebulah-Link/archive/refs/heads/main.zip) or clone this repository, then extract the **whole** folder. The source checkout needs the USB engine build step below. A source ZIP is not a signed installer.
+2. Download the [Basic source ZIP](https://github.com/Nebulahapp/Nebulah-Link/archive/refs/heads/main.zip) or `git clone https://github.com/Nebulahapp/Nebulah-Link.git`, then extract or use the **whole** folder. Keep every app file together. A source ZIP is not a signed installer.
 3. Double-click **Start Nebulah Link.cmd**. The launcher needs Python 3.10 or newer; it can offer to install Python through WinGet if needed.
 4. Keep the bridge window open. In the browser, connect using Neighborhood's default console or enter your console's private IP address.
+5. Optional: for the USB Builder tab only, install the .NET 10 SDK and run `powershell -ExecutionPolicy Bypass -File tools/build_badbuilder.ps1` once. Skip this if you are not formatting a USB disk.
 
 Nebulah Link does not include Xbox SDK files, console binaries, or games.
 
 ## What Basic can do
 
-Basic covers work a stranger could do with an upstream tool plus Xbox 360 Neighborhood. Game Editors and Title editors stay in Nebulah Link Pro.
+Basic covers work a stranger could do with an upstream tool plus Xbox 360 Neighborhood. Game Editors and Title editors stay in [Nebulah Link Pro](https://link.nebulah.app/link-pro).
 
 - Connect, status, the current title, temperatures, and loaded modules.
 - Storage browse and download, capacity, and health. Individual file downloads remain capped at 128 MiB.
@@ -48,9 +49,15 @@ Basic covers work a stranger could do with an upstream tool plus Xbox 360 Neighb
 - Profile package inspect (read only).
 - Cherry, the PC-local virtual profile.
 
-Game Editors and Title editors stay in Nebulah Link Pro. That includes the Nebulah Editors XEX, in-title menus, bridge RTE hubs, editor recipes, profile-write apply, and gamertag or identity writes.
+Game Editors and Title editors stay in [Nebulah Link Pro](https://link.nebulah.app/link-pro). That includes the Nebulah Editors XEX, in-title menus, bridge RTE hubs, editor recipes, profile-write apply, and gamertag or identity writes. Pro download codes are not entered in this Basic app; checkout remains disabled on the website.
 
 The current Stream360 stack is not shipped. It needs a Nebulah rewrite before any edition ships it. This page does not classify that code as Basic or Pro.
+
+### Known early-access limits
+
+- USB Builder has not completed a physical USB format/install trial through this web route.
+- Physical-phone HTTPS and additional Windows/console setups remain open.
+- Direct plugin unload and force-release stay paused until their console trials pass.
 
 ## USB Builder on Windows
 
@@ -76,7 +83,7 @@ For a new folder, stop both copies of Basic. Run `python tools/migrate-local.py 
 
 For help, include the displayed support code and what you were doing. Do not share private console information.
 
-[Website](https://link.nebulah.app/) · [Discord](https://discord.gg/QCQcXaz6RU) · [Report an issue](https://github.com/Nebulah360/Nebulah-Link/issues)
+[Website](https://link.nebulah.app/) · [Pro](https://link.nebulah.app/link-pro) · [Discord](https://discord.gg/QCQcXaz6RU) · [Report an issue](https://github.com/Nebulahapp/Nebulah-Link/issues)
 
 
 ## The refreshed workspace

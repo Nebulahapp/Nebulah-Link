@@ -2,7 +2,7 @@
 
 ## Provenance and scope
 
-Base: public `Nebulah360/Nebulah-Link` commit `8846a5d27e54c7c8bdac9f0ff0a946d3f60782f6`. Work was prepared in an isolated local worktree. No dirty Basic-Dev workspace, private Pro implementation, mixed-feature Legacy history, or local console data was copied into this snapshot.
+Base: public commit `8846a5d27e54c7c8bdac9f0ff0a946d3f60782f6` (historical Nebulah360 path; current public remote is `Nebulahapp/Nebulah-Link`). Work was prepared in an isolated local worktree. No dirty Basic-Dev workspace, private Pro implementation, mixed-feature Legacy history, or local console data was copied into this snapshot.
 
 The release follows the curated publication model documented in public commit `679377c5de1e03a658e20d8fff0e3f8c8a37726c`. The later approved Neighborhood-class Basic boundary remains intact; this refresh does not restore the superseded read-only edition policy.
 
@@ -30,3 +30,9 @@ The integration regression parses every script loaded by the real HTML in a shar
 - The new asset routes serve only explicit trusted files. Invalid Host values, path traversal, unknown assets, and local-data requests remain denied.
 
 Browser API fixtures are test-only. The production app contains no simulated console state. No console operation, physical USB formatting, paid account operation, or physical-phone acceptance was performed. Existing limited hardware evidence and beta restrictions remain unchanged; this source refresh is not a stable binary release.
+
+## Free early-access packaging — November 11, 2026
+
+Presentation and source-distribution only. Adds the MIT root `LICENSE`, points public clone/issue links at `Nebulahapp/Nebulah-Link`, clarifies free early-access install steps, and links Pro editors/RTE to `https://link.nebulah.app/link-pro` with checkout still disabled. The GitHub preset name for this repository was updated to match. Adapter behavior, allowlists, beta gates, and existing hardware limits are unchanged. Not a stable release, signed installer, USB hardware acceptance, or billing enablement.
+
+Archive SHA-256 of committed tracked bytes will be recorded after this commit is created.
