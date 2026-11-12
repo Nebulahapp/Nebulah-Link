@@ -35,4 +35,4 @@ Browser API fixtures are test-only. The production app contains no simulated con
 
 Presentation and source-distribution only. Adds the MIT root `LICENSE`, points public clone/issue links at `Nebulahapp/Nebulah-Link`, clarifies free early-access install steps, and links Pro editors/RTE to `https://link.nebulah.app/link-pro` with checkout still disabled. The GitHub preset name for this repository was updated to match. Adapter behavior, allowlists, beta gates, and existing hardware limits are unchanged. Not a stable release, signed installer, USB hardware acceptance, or billing enablement.
 
-Archive SHA-256 of committed tracked bytes will be recorded after this commit is created.
+Archive of commit `16b78e33e0efc518a0db91801a238553e5cf5478` (`git archive` of tracked bytes): SHA-256 `3131f567df5149611dacf0454389483eb95fc781ac12b71feb147f4aaa0d5f6c`. Local path `.local/releases/Nebulah-Link-early-access-16b78e3.zip` is not published; keep `.local` out of public source.
